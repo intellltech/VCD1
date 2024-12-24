@@ -24,4 +24,9 @@ setup(
         "hypothesis>=2.0",
         "docker-py>=1.5.0",
     ],
+    extras_require={
+        "dev": [
+            "behave",
+        ],
+    }
 )
